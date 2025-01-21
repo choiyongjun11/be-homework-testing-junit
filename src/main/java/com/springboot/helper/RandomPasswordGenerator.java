@@ -7,7 +7,8 @@ import java.util.List;
 
 import static java.util.stream.Collectors.toList;
 
-public class RandomPasswordGenerator {
+public class
+RandomPasswordGenerator {
     public static String generate(int numberOfUpperCaseLetters,
                                   int numberOfLowerCaseLetters,
                                   int numberOfNumeric,
@@ -24,7 +25,7 @@ public class RandomPasswordGenerator {
                 .toString();
     }
 
-    private static List<Character> shuffleLetters(String combinedLetters) {
+    public static List<Character> shuffleLetters(String combinedLetters) {
         List<Character> shuffledLetters = combinedLetters.chars().mapToObj(c -> (char) c).collect(toList());
         Collections.shuffle(shuffledLetters);
         return shuffledLetters;

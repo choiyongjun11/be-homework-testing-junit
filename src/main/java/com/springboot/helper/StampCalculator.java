@@ -13,4 +13,5 @@ public class StampCalculator {
                 .mapToInt(quantity -> quantity)
                 .sum();
     }
+
 }

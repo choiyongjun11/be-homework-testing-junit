@@ -1,7 +1,5 @@
 package com.springboot.helper;
-
 import org.apache.commons.lang3.RandomStringUtils;
-
 import java.util.Collections;
 import java.util.List;
 

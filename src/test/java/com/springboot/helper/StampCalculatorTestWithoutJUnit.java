@@ -16,7 +16,6 @@ public class StampCalculatorTestWithoutJUnit {
         int nowCount = 5;
         int earned = 3;
 
-
         // when
         int actual = StampCalculator.calculateStampCount(nowCount, earned);
 

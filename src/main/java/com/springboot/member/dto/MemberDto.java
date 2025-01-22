@@ -12,6 +12,7 @@ import javax.validation.constraints.Pattern;
 
 public class MemberDto {
     @Getter
+    @AllArgsConstructor
     public static class Post {
         @NotBlank
         @Email
